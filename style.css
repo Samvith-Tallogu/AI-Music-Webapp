@@ -1,0 +1,26 @@
+.heading{
+    font-size: 20px !important;
+    width: 66%;
+}
+
+.note{
+    word-wrap: break-word;
+    padding-bottom: 10px;
+    width: 100%;
+}
+body{
+    background-image: url('background.gif');
+    background-size: cover;
+}
+
+#gif{
+    float: left;
+    width: 260px;
+    height: 180px;
+}
+
+#gif1{
+    float: right;
+    width: 260px;
+    height: 180px;
+}
