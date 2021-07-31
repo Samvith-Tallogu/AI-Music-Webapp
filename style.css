@@ -17,10 +17,18 @@ body{
     float: left;
     width: 260px;
     height: 180px;
+    border-radius: 200px;
 }
 
 #gif1{
     float: right;
     width: 260px;
     height: 180px;
+    border-radius: 200px;
+}
+
+canvas{
+    border: 10px solid white;
+    border-radius: 20px;
+    margin-top: 90px;
 }
