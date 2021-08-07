@@ -77,9 +77,9 @@ function draw() {
 		}
 	}
 
-	if(scorerightWrist > 0.2)
+	if(scoreRightWrist > 0.2)
 	{
-		circle(rightWristX,lrightWristY,20);
+		circle(rightWristX,rightWristY,20);
 
 			song2.stop();
 
