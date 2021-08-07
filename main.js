@@ -73,7 +73,20 @@ function draw() {
 		if(song2_status == false)
 		{
 			song2.play();
-			document.getElementById("song").innerHTML = "Playing - I like to move it move it(Madagascar)"
+			document.getElementById("song").innerHTML = "Playing: I like to move it move it(Madagascar)"
+		}
+	}
+
+	if(scorerightWrist > 0.2)
+	{
+		circle(rightWristX,lrightWristY,20);
+
+			song2.stop();
+
+		if(song1_status == false)
+		{
+			song1.play();
+			document.getElementById("song").innerHTML = "Playing: Faded By Alan Walker"
 		}
 	}
 
